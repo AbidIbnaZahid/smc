@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.registerPage{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6811099439775911) 34%, rgba(0,212,255,1) 100%);
+height: 100vh;
+}
+.registerCol{
+  margin: auto;
+  margin-top: 12% !important;
+}
+.card{
+      border-radius: 15px !important;
+}
+.home{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+height: 100vh;
+position: relative;
+}
+.home h1{
+  text-align: center;
+  cursor: pointer;
+  transition: .6s;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hide{
+  padding-top: 22%;
+  display: none;
+  text-align: center;
+  color: blueviolet;
+  transition: .6s;
+}
+.home h1:hover + .hide{
+   display: block;
+}
+.resetPass{
+  cursor: pointer;
+}
+.inputError{
+  border: 1px solid red;
+}
